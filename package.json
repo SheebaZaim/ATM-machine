@@ -1,0 +1,25 @@
+{
+  "name": "szatm-machine",
+  "version": "1.0.0",
+  "description": "atm first time system",
+  "main": "main.js",
+  "type": "module",
+  "bin": {
+    "atm-machine": "main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atm"
+  ],
+  "author": "sheeba",
+  "license": "MIT",
+  "dependencies": {
+    "init": "^0.1.2",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
